@@ -1,0 +1,7 @@
+{%extends 'Base.html' %}
+
+{% block content %}
+<h1>Hello there, I am a home page!</h1>
+{{request.user.is_authenticated}}
+<p>This is a Django template</p> 
+{% endblock %}
