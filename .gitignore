@@ -1,3 +1,3 @@
 node_modules
 mongoUrl
-.env
+./.env
